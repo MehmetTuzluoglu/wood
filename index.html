@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WooD - Özel Mobilya Tasarımı</title>
+    <!-- Preload Hero Background -->
+    <link rel="preload" as="image" href="hero_bg_1778173385742.png">
+    <!-- Favicon -->
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🪵</text></svg>">
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header & Nav -->
+    <header id="header">
+        <nav class="container">
+            <div class="logo">
+                <a href="#">Woo<span>D.</span></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero">Ana Sayfa</a></li>
+                <li><a href="#about">Hakkımızda</a></li>
+                <li><a href="#services">Hizmetlerimiz</a></li>
+                <li><a href="#portfolio">Portföy</a></li>
+                <li><a href="#contact">İletişim</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="mobile-menu-icon">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content container">
+                <h1 data-aos="fade-down" data-aos-duration="1000">Hayalinizdeki <br><span id="typed-text"
+                        class="typed-text"></span><span class="cursor-blink">|</span>
+                </h1>
+                <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Eviniz veya iş yeriniz için özel
+                    tasarım, yüksek kaliteli MDF ve ahşap işçiliği.</p>
+                <a href="#portfolio" class="btn btn-primary" data-aos="zoom-in" data-aos-duration="1000"
+                    data-aos-delay="400">Projeleri Gör</a>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="section-padding container">
+            <div class="about-grid">
+                <div class="about-image" data-aos="fade-right" data-aos-duration="1000">
+                    <img src="mdf_workshop.png" alt="Modern Mobilya Üretimi" loading="lazy" decoding="async">
+                </div>
+                <div class="about-content" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="section-title" style="text-align: left;">
+                        <h2>Modern Tasarım, Kaliteli Üretim</h2>
+                        <div class="underline" style="margin: 0;"></div>
+                    </div>
+                    <p>Yılların getirdiği tecrübe ile 1. sınıf MDF ve dayanıklı malzemeleri ustalıkla işliyor, yaşam
+                        alanlarınızı daha estetik ve fonksiyonel hale getirmek için çalışıyoruz. İhtiyacınıza uygun,
+                        ölçüye özel mobilya çözümleri üretiyoruz.</p>
+                    <p>Seri üretim kalıplarının dışına çıkarak, tamamen size özel ve uzun ömürlü tasarımlar hayata
+                        geçiriyoruz. İleri teknoloji üretim anlayışımız ve detaylara verdiğimiz önemle mekanlarınıza
+                        değer katıyoruz.</p>
+                    <ul class="about-features">
+                        <li><i class="fas fa-check-circle"></i> Yüksek Kalite MDF ve Lake Uygulamaları</li>
+                        <li><i class="fas fa-check-circle"></i> Mekana Özel Ölçü ve 3D Tasarım</li>
+                        <li><i class="fas fa-check-circle"></i> Profesyonel Kurulum ve Garantili İşçilik</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section id="stats" class="section-padding text-center">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+                        <i class="fas fa-calendar-check stat-icon"></i>
+                        <h3 class="stat-number" data-target="15">0</h3>
+                        <p>Yıllık Tecrübe</p>
+                    </div>
+                    <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                        <i class="fas fa-project-diagram stat-icon"></i>
+                        <h3 class="stat-number" data-target="500">0</h3>
+                        <p>Tamamlanan Proje</p>
+                    </div>
+                    <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+                        <i class="fas fa-smile stat-icon"></i>
+                        <h3 class="stat-number" data-target="100">0</h3>
+                        <p>% Müşteri Memnuniyeti</p>
+                    </div>
+                    <div class="stat-item" data-aos="fade-up" data-aos-delay="400">
+                        <i class="fas fa-drafting-compass stat-icon"></i>
+                        <h3 class="stat-number" data-target="300">0</h3>
+                        <p>Özel Tasarım</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section-padding bg-light">
+            <div class="container">
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Hizmetlerimiz</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                        <i class="fas fa-hammer"></i>
+                        <h3>Özel Tasarım Mobilya</h3>
+                        <p>Tamamen sizin ölçülerinize ve isteklerinize göre tasarlanan, kişiye özel mobilya üretimi.</p>
+                    </div>
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                        <i class="fas fa-couch"></i>
+                        <h3>İç Mekan Dekorasyon</h3>
+                        <p>Mutfak, yatak odası, banyo veya oturma odası için estetik ve işlevsel ahşap çözümleri.</p>
+                    </div>
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                        <i class="fas fa-tools"></i>
+                        <h3>Mobilya Restorasyonu</h3>
+                        <p>Eski ve değerli mobilyalarınızın onarımı, bakımı ve ilk günkü güzelliğine kavuşturulması.</p>
+                    </div>
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                        <i class="fas fa-wrench"></i>
+                        <h3>Profesyonel Montaj</h3>
+                        <p>Ürettiğimiz veya sizin temin ettiğiniz mobilyaların uzman ekibimizle kusursuz ve güvenli
+                            montajı.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section id="process" class="section-padding">
+            <div class="container">
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Nasıl Çalışıyoruz?</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="process-grid">
+                    <div class="process-step" data-aos="fade-up" data-aos-delay="100">
+                        <div class="step-number">01</div>
+                        <i class="fas fa-ruler-combined"></i>
+                        <h3>Keşif & Ölçü</h3>
+                        <p>Mekanınızı ziyaret edip isteklerinizi dinler, milimetrik ölçüleri alırız.</p>
+                    </div>
+                    <div class="process-step" data-aos="fade-up" data-aos-delay="200">
+                        <div class="step-number">02</div>
+                        <i class="fas fa-laptop-house"></i>
+                        <h3>3D Tasarım</h3>
+                        <p>Hayalinizdeki mobilyayı 3 boyutlu olarak çizer, onayınıza sunarız.</p>
+                    </div>
+                    <div class="process-step" data-aos="fade-up" data-aos-delay="300">
+                        <div class="step-number">03</div>
+                        <i class="fas fa-hammer"></i>
+                        <h3>Üretim</h3>
+                        <p>En kaliteli malzemelerle usta ellerde özenle üretimi gerçekleştiririz.</p>
+                    </div>
+                    <div class="process-step" data-aos="fade-up" data-aos-delay="400">
+                        <div class="step-number">04</div>
+                        <i class="fas fa-truck-loading"></i>
+                        <h3>Montaj & Teslim</h3>
+                        <p>Söz verdiğimiz tarihte adresinize getirir, kusursuzca monte ederiz.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Brands Marquee Section -->
+        <section id="brands" class="brands-marquee">
+            <div class="marquee-content">
+                <span class="brand-logo"><i class="fas fa-leaf" style="color: #2b7d3f;"></i> Kastamonu Entegre</span>
+                <span class="brand-logo agt-logo">AGT</span>
+                <span class="brand-logo blum-logo"><i class="fas fa-square"
+                        style="color: #f37021; margin-right: 5px;"></i>blum</span>
+                <span class="brand-logo hafele-logo"><i class="fas fa-circle"
+                        style="color: #e3000f; font-size: 0.4em; transform: translateY(-10px); margin-right: 2px;"></i>HÄFELE</span>
+                <span class="brand-logo"><i class="fas fa-star" style="color: #0056b3;"></i> Yıldız Entegre</span>
+
+                <!-- Duplicate for seamless loop -->
+                <span class="brand-logo"><i class="fas fa-leaf" style="color: #2b7d3f;"></i> Kastamonu Entegre</span>
+                <span class="brand-logo agt-logo">AGT</span>
+                <span class="brand-logo blum-logo"><i class="fas fa-square"
+                        style="color: #f37021; margin-right: 5px;"></i>blum</span>
+                <span class="brand-logo hafele-logo"><i class="fas fa-circle"
+                        style="color: #e3000f; font-size: 0.4em; transform: translateY(-10px); margin-right: 2px;"></i>HÄFELE</span>
+                <span class="brand-logo"><i class="fas fa-star" style="color: #0056b3;"></i> Yıldız Entegre</span>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="section-padding">
+            <div class="container">
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Portföyümüz</h2>
+                    <div class="underline"></div>
+                </div>
+
+                <div class="filter-buttons" data-aos="fade-up" data-aos-delay="100">
+                    <button class="filter-btn active" data-filter="all">Tümü</button>
+                    <button class="filter-btn" data-filter="mutfak">Mutfak</button>
+                    <button class="filter-btn" data-filter="yatak-odasi">Yatak Odası</button>
+                    <button class="filter-btn" data-filter="yemek-odasi">Yemek Odası</button>
+                    <button class="filter-btn" data-filter="cocuk-odasi">Çocuk Odası</button>
+                    <button class="filter-btn" data-filter="oturma-odasi">Oturma Odası</button>
+                </div>
+
+                <div class="portfolio-gallery">
+                    <!-- Kitchen 1 -->
+                    <div class="portfolio-item mutfak">
+                        <img src="mdf_kitchen_1.png" alt="Mat Lake MDF Mutfak" loading="lazy" decoding="async">
+                        <div class="item-overlay">
+                            <h3>Mat Lake MDF Mutfak</h3>
+                        </div>
+                    </div>
+                    <!-- Kitchen 2 -->
+                    <div class="portfolio-item mutfak">
+                        <img src="mdf_kitchen_2.png" alt="Akrilik Parlak MDF Mutfak" loading="lazy" decoding="async">
+                        <div class="item-overlay">
+                            <h3>Akrilik Parlak MDF Mutfak</h3>
+                        </div>
+                    </div>
+                    <!-- Bedroom -->
+                    <div class="portfolio-item yatak-odasi">
+                        <img src="mdf_bedroom.png" alt="Özel Tasarım MDF Gardırop" loading="lazy" decoding="async">
+                        <div class="item-overlay">
+                            <h3>Özel Ölçü MDF Gardırop</h3>
+                        </div>
+                    </div>
+                    <!-- Dining Room -->
+                    <div class="portfolio-item yemek-odasi">
+                        <img src="mdf_dining_room.png" alt="Lake Boyalı Yemek Odası" loading="lazy" decoding="async">
+                        <div class="item-overlay">
+                            <h3>Lake Boyalı Yemek Odası</h3>
+                        </div>
+                    </div>
+                    <!-- Kids Room -->
+                    <div class="portfolio-item cocuk-odasi">
+                        <img src="mdf_kids_room.png" alt="Renkli MDF Çocuk Odası" loading="lazy" decoding="async">
+                        <div class="item-overlay">
+                            <h3>Renkli MDF Çocuk Odası</h3>
+                        </div>
+                    </div>
+                    <!-- Living Room -->
+                    <div class="portfolio-item oturma-odasi">
+                        <img src="mdf_living_room.png" alt="Modern MDF TV Ünitesi" loading="lazy" decoding="async">
+                        <div class="item-overlay">
+                            <h3>Modern MDF TV Ünitesi</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Material Catalog Section -->
+        <section id="materials" class="section-padding bg-light">
+            <div class="container">
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Malzeme ve Renk Seçenekleri</h2>
+                    <div class="underline"></div>
+                </div>
+
+                <div class="materials-wrapper">
+                    <div class="swatches-container" data-aos="fade-right" data-aos-delay="100">
+                        <div class="swatch-item active" data-material="ceviz" data-color="#5c4033"
+                            data-title="Doğal Ceviz"
+                            data-desc="Zengin ve koyu dokusuyla mekanlara ağırbaşlı, premium bir hava katar. Masif ahşap tutkunlarının vazgeçilmezidir. Masa ve üst düzey konsol tasarımlarında sıkça tercih edilir."
+                            style="background-color: #5c4033;" title="Doğal Ceviz"></div>
+                        <div class="swatch-item" data-material="mese" data-color="#8b5a2b" data-title="Açık Meşe"
+                            data-desc="Aydınlık, ferah ve sıcak bir ortam yaratmak isteyenlerin ilk tercihidir. Dayanıklı yapısıyla hem modern hem de klasik tasarımlara uyum sağlar."
+                            style="background-color: #8b5a2b;" title="Açık Meşe"></div>
+                        <div class="swatch-item" data-material="cam" data-color="#cd853f" data-title="Doğal Çam"
+                            data-desc="Doğallığı ve budaklı yapısıyla rüstik ve İskandinav tarzı dekorasyonlar için biçilmiş kaftandır. Sıcak bir enerji verir."
+                            style="background-color: #cd853f;" title="Doğal Çam"></div>
+                        <div class="swatch-item" data-material="antrasit" data-color="#383E42" data-title="Antrasit MDF"
+                            data-desc="Modern ve minimalist tasarımların vazgeçilmezidir. Pürüzsüz yüzeyi ve asil duruşuyla özellikle mutfak ve giyinme odalarında tercih edilir."
+                            style="background-color: #383E42;" title="Antrasit MDF"></div>
+                        <div class="swatch-item" data-material="lake" data-color="#F4F4F4" data-title="Lake Beyaz"
+                            data-desc="Mekanı olduğundan daha geniş ve aydınlık gösterir. Pürüzsüz, ipeksi dokusu ve parlak/mat seçenekleriyle zamansız bir klasiktir."
+                            style="background-color: #F4F4F4;" title="Lake Beyaz"></div>
+                        <div class="swatch-item" data-material="siyah" data-color="#1a1a1a" data-title="Mat Siyah MDF"
+                            data-desc="Cesur, iddialı ve son derece şık. Çizilmeye dirençli mat yüzeyi ile parmak izi bırakmayan (anti-fingerprint) kapaklarda popülerdir."
+                            style="background-color: #1a1a1a;" title="Mat Siyah MDF"></div>
+                    </div>
+
+                    <div class="material-preview" id="material-preview" data-aos="fade-left" data-aos-delay="200">
+                        <div class="preview-color-box" id="preview-color-box" style="background-color: #5c4033;"></div>
+                        <div class="preview-text">
+                            <h3 id="preview-title">Doğal Ceviz</h3>
+                            <p id="preview-desc">Zengin ve koyu dokusuyla mekanlara ağırbaşlı, premium bir hava katar.
+                                Masif ahşap tutkunlarının vazgeçilmezidir. Masa ve üst düzey konsol tasarımlarında sıkça
+                                tercih edilir.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="section-padding bg-light">
+            <div class="container">
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Müşteri Yorumları</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Evimizin tüm mobilyalarını buraya yaptırdık. Hem tasarımı hem de
+                            işçiliği muazzam. Gerçekten çok memnun kaldık."</p>
+                        <h4 class="testimonial-author">- Ayşe Yılmaz</h4>
+                    </div>
+                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Eski sandalyelerimizin restorasyonu harika yapıldı. İlk günkü gibi
+                            oldular, ustaların ellerine sağlık."</p>
+                        <h4 class="testimonial-author">- Mehmet Kaya</h4>
+                    </div>
+                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Özel ölçü mutfak dolabımız tam istediğimiz gibi oldu. İletişim,
+                            zamanında teslimat ve kalite tartışılmaz."</p>
+                        <h4 class="testimonial-author">- Zeynep Demir</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Calculator Section -->
+        <section id="calculator" class="section-padding container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Ön Fiyat Hesaplama</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="calculator-card" data-aos="zoom-in" data-aos-delay="100">
+                <div class="calc-form">
+                    <div class="form-group">
+                        <label for="calc-product">Ürün Tipi</label>
+                        <select id="calc-product">
+                            <option value="15000">Mutfak Dolabı (m²)</option>
+                            <option value="12000">Yatak Odası Gardırop (m²)</option>
+                            <option value="8000">TV Ünitesi (m²)</option>
+                            <option value="5000">İç Kapı (Adet)</option>
+                            <option value="25000">Yemek Masası (Adet)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="calc-material">Malzeme Kalitesi</label>
+                        <select id="calc-material">
+                            <option value="1">Suntalam / Standart</option>
+                            <option value="1.3" selected>1. Sınıf MDF / Membran</option>
+                            <option value="1.6">Lake Boyalı MDF</option>
+                            <option value="2.5">Masif Ahşap (Ceviz, Meşe vb.)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="calc-size">Tahmini Ölçü / Adet</label>
+                        <input type="number" id="calc-size" min="1" value="1" placeholder="Metrekare veya Adet girin">
+                    </div>
+                </div>
+                <div class="calc-result">
+                    <div class="calc-price">
+                        <span class="price-label">Tahmini Fiyat Aralığı:</span>
+                        <h3 id="calc-total">19.500 TL - 23.400 TL</h3>
+                    </div>
+                    <p class="calc-note">* Bu fiyatlar tamamen bilgilendirme amaçlıdır. Nihai fiyat; kullanılacak
+                        mekanizma (ray, menteşe), kulp seçimi, özel işçilik ve montaj yerine göre değişiklik
+                        gösterebilir.</p>
+                    <a href="#contact" class="btn btn-primary" onclick="prefillContact()">Bu Tahminle Teklif Al</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="section-padding container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Sıkça Sorulan Sorular</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="faq-container">
+                <details class="faq-item" data-aos="fade-up" data-aos-delay="100">
+                    <summary>Özel ölçü mobilya yapıyor musunuz?</summary>
+                    <p>Evet, tüm mobilyalarımızı mekanınızın ölçülerine ve kişisel zevkinize göre tamamen size özel
+                        tasarlayıp üretiyoruz.</p>
+                </details>
+                <details class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                    <summary>Sipariş teslim süresi ortalama ne kadardır?</summary>
+                    <p>Ürünün detaylarına ve kullanılacak malzemeye göre değişmekle birlikte, ortalama teslimat süremiz
+                        2 ile 4 hafta arasındadır.</p>
+                </details>
+                <details class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                    <summary>Hangi tür ahşapları kullanıyorsunuz?</summary>
+                    <p>Projeye göre Masif Ahşap (Ceviz, Meşe, Çam vb.), 1. Sınıf MDF ve yüksek kaliteli suntalam
+                        seçeneklerimiz mevcuttur.</p>
+                </details>
+                <details class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                    <summary>Şehir dışına gönderim ve montaj yapıyor musunuz?</summary>
+                    <p>Evet, Türkiye'nin her yerine gönderim ve montaj hizmetimiz bulunmaktadır. Mesafeye göre detaylar
+                        için iletişime geçebilirsiniz.</p>
+                </details>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section-padding container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>İletişime Geçin</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-grid">
+                <!-- Contact Info -->
+                <div class="contact-info" data-aos="fade-right" data-aos-delay="100">
+                    <h3>Mehmet Tuzluoğlu ile İletişime Geçin</h3>
+                    <p>Projeleriniz ve fiyat teklifi almak için bizimle iletişime geçin. Masif ahşap ve MDF
+                        projelerinize dair her konuda size
+                        yardımcı olmaktan memnuniyet duyarız.</p>
+
+                    <ul class="info-list">
+                        <li><i class="fas fa-map-marker-alt"></i> Antakya, Hatay, Türkiye</li>
+                        <li><i class="fas fa-truck"></i> Türkiye'nin her yerine hizmetimiz vardır.</li>
+                        <li><i class="fas fa-phone-alt"></i> +90 532 383 72 41</li>
+                        <li><i class="fas fa-envelope"></i> info@mehmettuzluoglu.com</li>
+                    </ul>
+
+                    <a href="https://wa.me/905323837241" target="_blank" class="btn btn-whatsapp">
+                        <i class="fab fa-whatsapp"></i> WhatsApp'tan Ulaşın
+                    </a>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form" data-aos="fade-left" data-aos-delay="200">
+                    <form action="#" method="POST" id="form">
+                        <div class="form-group">
+                            <label for="name">İsim Soyisim</label>
+                            <input type="text" id="name" name="name" required placeholder="Adınız Soyadınız">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-posta Adresi (İsteğe Bağlı)</label>
+                            <input type="email" id="email" name="email" placeholder="ornek@email.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefon Numarası</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="0555 555 55 55">
+                        </div>
+                        <div class="form-group">
+                            <label for="product_type">Ürün Tipi</label>
+                            <select id="product_type" name="product_type" required>
+                                <option value="" disabled selected>Seçiniz</option>
+                                <option value="Mutfak Dolabı">Mutfak Dolabı</option>
+                                <option value="Yatak Odası">Yatak Odası</option>
+                                <option value="Masa & Sandalye">Masa & Sandalye</option>
+                                <option value="TV Ünitesi">TV Ünitesi</option>
+                                <option value="Mobilya Restorasyonu">Mobilya Restorasyonu</option>
+                                <option value="Diğer">Diğer</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="material_type">Malzeme Tercihi</label>
+                            <select id="material_type" name="material_type" required>
+                                <option value="" disabled selected>Seçiniz</option>
+                                <option value="Masif Ahşap">Masif Ahşap</option>
+                                <option value="1. Sınıf MDF">1. Sınıf MDF</option>
+                                <option value="Suntalam">Suntalam</option>
+                                <option value="Fikrim Yok / Danışmak İstiyorum">Fikrim Yok / Danışmak İstiyorum</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Detaylar ve Ölçüler</label>
+                            <textarea id="message" name="message" rows="4" required
+                                placeholder="Lütfen tahmini ölçüleri ve projeyle ilgili diğer detayları yazın..."></textarea>
+                            <small class="form-note"><i class="fas fa-info-circle"></i> Referans veya odanızın
+                                fotoğraflarını, bu formu gönderdikten sonra açılacak WhatsApp sohbetinden bize
+                                iletebilirsiniz.</small>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">Fiyat Teklifi Al</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Map Integration -->
+            <div class="map-container" data-aos="fade-up" data-aos-delay="300">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d102146.40277353982!2d36.082531093121544!3d36.21639014169543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1525e9821a00a299%3A0x89196b2707252063!2sAntakya%2C%20Hatay!5e0!3m2!1str!2str!4v1714489999999!5m2!1str!2str"
+                    width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <h2>Woo<span>D.</span></h2>
+                <p>Doğanın zarafetini evinize getiriyoruz.</p>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2026 WooD Mobilya. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <!-- Floating Action Buttons -->
+    <a href="https://wa.me/905323837241" target="_blank" class="floating-btn whatsapp-float" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <button id="scroll-top-btn" class="floating-btn scroll-top" aria-label="Yukarı Çık">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close" id="lightbox-close">&times;</span>
+        <img class="lightbox-img" id="lightbox-img" src="" alt="Büyütülmüş Görsel">
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
